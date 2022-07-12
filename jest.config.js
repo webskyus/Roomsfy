@@ -28,7 +28,8 @@ module.exports = {
   ],
   testPathIgnorePatterns: [
     "<rootDir>/node_modules/",
-    "<rootDir>/.next/"
+    "<rootDir>/.next/",
+    "<rootDir>/__tests__/utils"
   ],
   transform: {
     "^.+\\.(js|jsx|ts|tsx)$": [

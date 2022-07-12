@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1657597991480" clover="3.2.0">
-  <project timestamp="1657597991480" name="All files">
-    <metrics statements="345" coveredstatements="24" conditionals="7" coveredconditionals="1" methods="7" coveredmethods="1" elements="359" coveredelements="26" complexity="0" loc="345" ncloc="345" packages="4" files="7" classes="7"/>
+<coverage generated="1657598136420" clover="3.2.0">
+  <project timestamp="1657598136420" name="All files">
+    <metrics statements="360" coveredstatements="39" conditionals="17" coveredconditionals="8" methods="10" coveredmethods="4" elements="387" coveredelements="51" complexity="0" loc="360" ncloc="360" packages="5" files="8" classes="8"/>
     <package name="roomsfy">
       <metrics statements="17" coveredstatements="0" conditionals="1" coveredconditionals="0" methods="1" coveredmethods="0"/>
       <file name=".eslintrc.js" path="E:\Musor\js_tips\js_projects\roomsfy\.eslintrc.js">
@@ -320,6 +320,27 @@
         <line num="194" count="0" type="stmt"/>
         <line num="195" count="0" type="stmt"/>
         <line num="196" count="0" type="stmt"/>
+      </file>
+    </package>
+    <package name="roomsfy.__tests__.utils">
+      <metrics statements="15" coveredstatements="15" conditionals="10" coveredconditionals="7" methods="3" coveredmethods="3"/>
+      <file name="test.utils.js" path="E:\Musor\js_tips\js_projects\roomsfy\__tests__\utils\test.utils.js">
+        <metrics statements="15" coveredstatements="15" conditionals="10" coveredconditionals="7" methods="3" coveredmethods="3"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="2" count="1" type="stmt"/>
+        <line num="3" count="1" type="stmt"/>
+        <line num="4" count="1" type="cond" truecount="1" falsecount="0"/>
+        <line num="5" count="1" type="stmt"/>
+        <line num="6" count="1" type="stmt"/>
+        <line num="7" count="1" type="stmt"/>
+        <line num="8" count="1" type="cond" truecount="1" falsecount="0"/>
+        <line num="9" count="1" type="stmt"/>
+        <line num="10" count="1" type="stmt"/>
+        <line num="11" count="1" type="stmt"/>
+        <line num="12" count="1" type="cond" truecount="5" falsecount="3"/>
+        <line num="13" count="1" type="stmt"/>
+        <line num="14" count="1" type="stmt"/>
+        <line num="15" count="1" type="stmt"/>
       </file>
     </package>
     <package name="roomsfy.pages">
