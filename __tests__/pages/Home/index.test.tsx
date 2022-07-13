@@ -6,7 +6,7 @@ describe("HomePage", () => {
   it("should render the heading", () => {
     render(<HomePage />);
 
-    const textToFind = "Welcome"
+    const textToFind = "Welcome";
     const heading = screen.getByText(textToFind);
 
     expect(heading).toBe(heading);
