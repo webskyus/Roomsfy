@@ -1,0 +1,24 @@
+=to($maxWidth)
+  @media screen and (max-width: $maxWidth)
+    @content
+
+=toHeight($maxWidth)
+  @media screen and (max-height: $maxWidth)
+    @content
+
+=from($minWidth)
+  @media screen and (min-width: $minWidth)
+    @content
+
+=fromHeight($minWidth)
+  @media screen and (min-height: $minWidth)
+    @content
+
+=fromTo($minWidth, $maxWidth)
+  @media screen and (min-width: $minWidth) and (max-width: $maxWidth)
+    @content
+
+=fromToHeight($minWidth, $maxWidth)
+  @media screen and (min-height: $minWidth) and (min-height: $maxWidth)
+    @content
+
